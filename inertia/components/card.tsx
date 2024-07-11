@@ -8,7 +8,7 @@ interface CardProps extends HTMLAttributes<HTMLDivElement> {
 const Card = forwardRef<HTMLDivElement, CardProps>(({ className, ...props }, ref) => (
     <div
         ref={ref}
-        className={cn("md:shadow-md rounded-md p-4", className)}
+        className={cn("md:shadow-md rounded-md px-4 py-5", className)}
         {...props}
     />
 ))
