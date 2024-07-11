@@ -8,8 +8,8 @@ export default function Login(props: { title: string }) {
     return (
         <>
             <Head title={`Homepage - ${title}`} />
-            <div className="container flex items-center md:items-start md:justify-around">
-                <div className="flex p-2 flex-col justify-center items-center gap-2 md:flex-row md:justify-around md:p-5">
+            <div className="h-3/4 flex items-center md:items-center md:justify-center">
+                <div className="flex p-2 flex-col justify-center items-center gap-2 md:flex-row md:justify-around md:px-5 md:py-8">
                     <div className="w-full text-center md:text-left md:w-1/2">
                         <h1 className="text-2xl md:text-5xl font-bold text-violet-500">LibraryHub</h1>
                         <p className="text-base md:text-xl mt-2">The Perfect Home for Your Books: Effortlessly Organize and Explore Your Literary Collection.</p>
